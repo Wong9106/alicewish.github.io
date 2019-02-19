@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://alicewish.github.io/sitemap.xml

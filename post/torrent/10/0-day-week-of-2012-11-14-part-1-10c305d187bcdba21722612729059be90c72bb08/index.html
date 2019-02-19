@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>0-Day Week of 2012.11.14 Part 1 - 非名居 - 墨问非名的站点</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="墨问非名" /><meta name="description" content="点开下载" /><meta name="keywords" content="墨问非名, 非名居" />
+
+
+<meta name="baidu-site-verification" content="1HDlADuHzT" />
+<meta name="google-site-verification" content="XrWUkCXuOw4raLKgOPhWj_PeKoz9A-uDf-MRne2UmeE" />
+
+
+<meta name="generator" content="Hugo 0.54.0 with even 4.0.0" />
+
+
+<link rel="canonical" href="https://alicewish.github.io/post/torrent/10/0-day-week-of-2012-11-14-part-1-10c305d187bcdba21722612729059be90c72bb08/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<link href="/dist/even.c2a46f00.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="0-Day Week of 2012.11.14 Part 1" />
+<meta property="og:description" content="点开下载" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://alicewish.github.io/post/torrent/10/0-day-week-of-2012-11-14-part-1-10c305d187bcdba21722612729059be90c72bb08/" />
+<meta property="article:published_time" content="2012-11-21T06:27:53&#43;08:00"/>
+<meta property="article:modified_time" content="2012-11-21T06:27:53&#43;08:00"/>
+
+<meta itemprop="name" content="0-Day Week of 2012.11.14 Part 1">
+<meta itemprop="description" content="点开下载">
+
+
+<meta itemprop="datePublished" content="2012-11-21T06:27:53&#43;08:00" />
+<meta itemprop="dateModified" content="2012-11-21T06:27:53&#43;08:00" />
+<meta itemprop="wordCount" content="993">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="0-Day Week of 2012.11.14 Part 1"/>
+<meta name="twitter:description" content="点开下载"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">非名居</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">主页</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">归档</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">标签</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">分类</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">关于</li>
+      </a><a href="/post/catalogs/">
+        <li class="mobile-menu-item">目录</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">非名居</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">主页</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">归档</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">标签</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">分类</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">关于</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/catalogs/">目录</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">0-Day Week of 2012.11.14 Part 1</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2012-11-21 </span>
+        <div class="post-category">
+            <a href="/categories/torrent/"> Torrent </a>
+            </div>
+          <span class="more-meta"> 约 993 字 </span>
+          <span class="more-meta"> 预计阅读 2 分钟 </span>
+        <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次阅读 </span>
+      </div>
+    </header>
+
+    
+    <div class="post-content">
+      <p><a href="magnet:?xt=urn:btih:10c305d187bcdba21722612729059be90c72bb08&amp;dn=0-Day%20Week%20of%202012.11.14%20Part%201">磁力链接⬇Magnet Link</a></p>
+
+<p>打包下载📦仍在工事中</p>
+
+<p>文件数：116</p>
+
+<p>总大小：2.92GiB</p>
+
+<table>
+<thead>
+<tr>
+<th>Online</th>
+<th>Download</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>2000AD 1809 (2012) (Digital) (Nahga-Empire).cbr</td>
+<td>19.09MiB</td>
+</tr>
+
+<tr>
+<td>AVX - Consequences 05 (of 05) (2013) (2 Covers) (Minutemen-Meganubis).cbr</td>
+<td>26.91MiB</td>
+</tr>
+
+<tr>
+<td>AVX - Consequences 05 (of 05) (2013) (2 Covers) (c2c) (Minutemen-Meganubis).cbr</td>
+<td>32.44MiB</td>
+</tr>
+
+<tr>
+<td>AVX - Consequences 05 (of 05) (2013) (2 Covers) (noads) (Minutemen-Meganubis).cbr</td>
+<td>24.20MiB</td>
+</tr>
+
+<tr>
+<td>AVX Consequences 05 (of 05) (2013) (digital) (Minutemen-TwiztidScanner).cbr</td>
+<td>11.95MiB</td>
+</tr>
+
+<tr>
+<td>Adventure Time Marceline and the Scream Queens 004 (2012) (4 covers) (F) (digital-TheGroup).cbr</td>
+<td>11.66MiB</td>
+</tr>
+
+<tr>
+<td>Adventure Time Marceline and the Scream Queens 005 (2012) (4 covers) (digital-TheGroup).cbr</td>
+<td>10.02MiB</td>
+</tr>
+
+<tr>
+<td>Age of Apocalypse 009 (2012) (Meganubis-Novus).cbz</td>
+<td>24.23MiB</td>
+</tr>
+
+<tr>
+<td>Age of Apocalypse 009 (2012) (c2c) (Meganubis-Novus).cbz</td>
+<td>32.65MiB</td>
+</tr>
+
+<tr>
+<td>All New X-Men 001 (2013) (Digital) (Zone-Empire).cbr</td>
+<td>17.61MiB</td>
+</tr>
+
+<tr>
+<td>All-New X-Men 001 (2013) (3 Covers) (Meganubis-Novus).cbz</td>
+<td>31.04MiB</td>
+</tr>
+
+<tr>
+<td>All-New X-Men 001 (2013) (3 Covers) (c2c) (Meganubis-Novus).cbz</td>
+<td>36.13MiB</td>
+</tr>
+
+<tr>
+<td>Amazing Spider-Man 697 (2012) (digital-TheGroup).cbr</td>
+<td>12.47MiB</td>
+</tr>
+
+<tr>
+<td>Ame-Comi Girls 011 (2013) (Digital) (Nahga-Empire).cbr</td>
+<td>17.62MiB</td>
+</tr>
+
+<tr>
+<td>Angel &amp; Faith 15 (2012) (Digital) (Cypher-Empire).cbr</td>
+<td>17.46MiB</td>
+</tr>
+
+<tr>
+<td>Archer And Armstrong 004 (2012) (Nahga-Empire).cbr</td>
+<td>23.15MiB</td>
+</tr>
+
+<tr>
+<td>Archer and Armstrong 04 (2012) (digital) (Minutemen-TwiztidScanner).cbr</td>
+<td>21.50MiB</td>
+</tr>
+
+<tr>
+<td>Arrow 005 (2012) (digital-Empire).cbr</td>
+<td>11.93MiB</td>
+</tr>
+
+<tr>
+<td>Arrow 006 (2012) (digital-Empire).cbr</td>
+<td>17.02MiB</td>
+</tr>
+
+<tr>
+<td>Atomic Robo - The Flying She-Devils of the Pacific 04 (of 05) (2012) (digital-Empire).cbr</td>
+<td>21.71MiB</td>
+</tr>
+
+<tr>
+<td>Avengers Assemble 009 (2012) (Digital) (Zone-Empire).cbr</td>
+<td>15.87MiB</td>
+</tr>
+
+<tr>
+<td>Batgirl 014 (2013) (Digital) (Nahga-Empire).cbr</td>
+<td>16.61MiB</td>
+</tr>
+
+<tr>
+<td>Batman - Arkham Unhinged 052 (2013) (Digital) (Nahga-Empire).cbr</td>
+<td>9.73MiB</td>
+</tr>
+
+<tr>
+<td>Batman - Li&rsquo;l Gotham 002 (2012) (digital) (TheHand-Empire).cbr</td>
+<td>16.02MiB</td>
+</tr>
+
+<tr>
+<td>Batman 014 (4 Covers) (2013) (Digital) (Zone-Empire).cbr</td>
+<td>17.09MiB</td>
+</tr>
+
+<tr>
+<td>Batman and Robin 014 (2013) (Digital) (Zone-Empire).cbr</td>
+<td>14.11MiB</td>
+</tr>
+
+<tr>
+<td>Batman and Robin 14 (2013) (digital) (Minutemen-InnerDemons).cbr</td>
+<td>14.15MiB</td>
+</tr>
+
+<tr>
+<td>Billy the Kid&rsquo;s Old Timey Oddities and the Orm of Loch Ness 02 (of 04) (2012) (digital-Empire).cbr</td>
+<td>25.27MiB</td>
+</tr>
+
+<tr>
+<td>Bloodshot 005 (2012) (Digtial) (Nahga-Empire).cbr</td>
+<td>23.11MiB</td>
+</tr>
+
+<tr>
+<td>Bloodshot 05 (2012) (digital) (Minutemen-TwiztidScanner).cbr</td>
+<td>21.23MiB</td>
+</tr>
+
+<tr>
+<td>Buffy the Vampire Slayer Season 9 15 (2012) (Digital) (Cypher-Empire).cbr</td>
+<td>16.98MiB</td>
+</tr>
+
+<tr>
+<td>Charismagic - The Death Princess 01 (2012) (2 Covers) (Tarutaru-Novus).cbr</td>
+<td>19.92MiB</td>
+</tr>
+
+<tr>
+<td>Charismagic - The Death Princess 01 (2012) (2 Covers) (Tarutaru-Novus-HD).cbr</td>
+<td>34.51MiB</td>
+</tr>
+
+<tr>
+<td>Chasing The Dead 01 (of 04) (2012) (Digital) (Vee-Empire).cbr</td>
+<td>23.85MiB</td>
+</tr>
+
+<tr>
+<td>Classic Popeye 004 (2012) (c2c) (GreenGiant-DCP).cbr</td>
+<td>49.74MiB</td>
+</tr>
+
+<tr>
+<td>Comic Shop News 1325 (2012) (GreenBlast-DCP).cbr</td>
+<td>18.78MiB</td>
+</tr>
+
+<tr>
+<td>Comic Shop News 1326 (2012) (GreenBlast-DCP).cbr</td>
+<td>18.21MiB</td>
+</tr>
+
+<tr>
+<td>Conan the Barbarian 010 (2012) (digital-Empire).cbr</td>
+<td>24.03MiB</td>
+</tr>
+
+<tr>
+<td>Courtney Crumrin 007 (2012) (Digital) (Nahga-Empire).cbr</td>
+<td>14.47MiB</td>
+</tr>
+
+<tr>
+<td>Crossed - Wish You Were Here v2 c06 (2012) (digital).cbr</td>
+<td>3.18MiB</td>
+</tr>
+
+<tr>
+<td>Damsels 003 (2012) (digital-Empire).cbr</td>
+<td>41.13MiB</td>
+</tr>
+
+<tr>
+<td>Damsels 003 (2012)(FB-DCP)(C2C).cbr</td>
+<td>18.11MiB</td>
+</tr>
+
+<tr>
+<td>Daredevil - End of Days 02 (of 08) (2013) (2 covers - 2048px) (theProletariat-Novus-HD).cbr</td>
+<td>41.80MiB</td>
+</tr>
+
+<tr>
+<td>Daredevil - End of Days 02 (of 08) (2013) (2 covers) (theProletariat-Novus).cbr</td>
+<td>26.21MiB</td>
+</tr>
+
+<tr>
+<td>Dark Shadows Vampirella 004(2012)(Digital)(Tyrant Lizard King-EMPIRE).cbr</td>
+<td>20.39MiB</td>
+</tr>
+
+<tr>
+<td>Dark Shadows Vampirella 04(2012)(FB-DCP)(C2C).cbr</td>
+<td>15.15MiB</td>
+</tr>
+
+<tr>
+<td>Dark Shadows Vampirella 4(c2c)(2012)(Re-em-Novus).cbr</td>
+<td>27.94MiB</td>
+</tr>
+
+<tr>
+<td>Dark Shadows Vampirella 4(c2c)(2012)(Re-em-Novus-HD).cbr</td>
+<td>36.69MiB</td>
+</tr>
+
+<tr>
+<td>Deathstroke 014 (2013) (digital-TheGroup).cbr</td>
+<td>16.20MiB</td>
+</tr>
+
+<tr>
+<td>Debris 04 (2012) (Tarutaru-Novus).cbr</td>
+<td>24.45MiB</td>
+</tr>
+
+<tr>
+<td>Debris 04 (2012) (Tarutaru-Novus-HD).cbr</td>
+<td>41.37MiB</td>
+</tr>
+
+<tr>
+<td>Demon Knights 014 (2013) (Digital) (Nahga-Empire).cbr</td>
+<td>17.01MiB</td>
+</tr>
+
+<tr>
+<td>Dragon Age - Those Who Speak 03 (of 03) (2012) (digital-Empire).cbr</td>
+<td>33.54MiB</td>
+</tr>
+
+<tr>
+<td>Economix GN (2012) (Digital) (Vee-Empire).cbr</td>
+<td>178.71MiB</td>
+</tr>
+
+<tr>
+<td>Elephantmen 044 (2012) (digital-Empire).cbr</td>
+<td>49.72MiB</td>
+</tr>
+
+<tr>
+<td>Evil Ernie 002 (2012) (4 covers) (digital-Empire).cbr</td>
+<td>44.73MiB</td>
+</tr>
+
+<tr>
+<td>Ex Sanguine 002 (2012) (digital-Empire).cbr</td>
+<td>30.19MiB</td>
+</tr>
+
+<tr>
+<td>Executive Assistant - Assassins 005 (2012) (2 Covers) (Digital) (Thornn-Empire).cbr</td>
+<td>12.73MiB</td>
+</tr>
+
+<tr>
+<td>Executive Assistant Assassins 005 (2012) (2 covers) (Digital) (K6DVR-Empire).cbr</td>
+<td>9.88MiB</td>
+</tr>
+
+<tr>
+<td>Extermination 006 (2012) (4 covers) (Digital) (Fawkes-Empire).cbr</td>
+<td>31.56MiB</td>
+</tr>
+
+<tr>
+<td>Fanboys Vs Zombies 008 (2012) (4 covers) (digital-TheGroup).cbr</td>
+<td>14.52MiB</td>
+</tr>
+
+<tr>
+<td>Fantastic Four 001 (2013) (digital-TheGroup).cbr</td>
+<td>12.24MiB</td>
+</tr>
+
+<tr>
+<td>Fantastic Four 01 (2013) (digital) (Minutemen-TwiztidScanner).cbr</td>
+<td>17.59MiB</td>
+</tr>
+
+<tr>
+<td>Farmhouse 005 (2012) (Digital) (K6 DVR-Empire).cbr</td>
+<td>15.21MiB</td>
+</tr>
+
+<tr>
+<td>First X-Men 4(2013)(Digital)(C9-Novus).cbr</td>
+<td>25.41MiB</td>
+</tr>
+
+<tr>
+<td>First X-Men 4(c2c)(2013)(Re-em-Novus).cbr</td>
+<td>31.83MiB</td>
+</tr>
+
+<tr>
+<td>First X-Men 4(c2c)(2013)(Re-em-Novus-HD).cbr</td>
+<td>45.09MiB</td>
+</tr>
+
+<tr>
+<td>Frankenstein Agent of S.H.A.D.E. 014 (2013) (Digital) (Zone-Empire).cbr</td>
+<td>17.87MiB</td>
+</tr>
+
+<tr>
+<td>G.I. Joe - A Real American Hero 184 (2012) (digital-Empire).cbz</td>
+<td>19.35MiB</td>
+</tr>
+
+<tr>
+<td><a href="/post/comic/gambit-005-2013-digital-zone-empire-cbr">Gambit 005 (2013) (Digital) (Zone-Empire).cbr</a></td>
+<td>15.00MiB</td>
+</tr>
+
+<tr>
+<td>Gambit 05 (2013) (0000Daze-Novus).cbz</td>
+<td>20.83MiB</td>
+</tr>
+
+<tr>
+<td>Gambit 05 (2013) (0000Daze-Novus-HD).cbz</td>
+<td>32.47MiB</td>
+</tr>
+
+<tr>
+<td>Gambit 05 (2013) (c2c) (0000Daze-Novus).cbz</td>
+<td>27.91MiB</td>
+</tr>
+
+<tr>
+<td>Garfield 007 (2012) (c2c) (GreenEngine-DCP).cbr</td>
+<td>29.35MiB</td>
+</tr>
+
+<tr>
+<td>Great Pacific 001 (2012) (digital-Empire).cbr</td>
+<td>41.77MiB</td>
+</tr>
+
+<tr>
+<td>Green Lantern Corps 014 (2013) (Digital) (Nahga-Empire).cbr</td>
+<td>18.85MiB</td>
+</tr>
+
+<tr>
+<td>Green Lantern The Animated Series #08 (2012) (Digital-Comrade Sol).cbz</td>
+<td>14.70MiB</td>
+</tr>
+
+<tr>
+<td>Green Lantern corps v3 014 (2012) (c2c) (The Last Kryptonian-DCP).cbr</td>
+<td>23.41MiB</td>
+</tr>
+
+<tr>
+<td>Grifter 014 (2013) (Digital) (Nahga-Empire).cbr</td>
+<td>11.33MiB</td>
+</tr>
+
+<tr>
+<td>Grimm Fairy Tales Bad Girls 4(c2c)(2 covers)(2012)(Re-em-Novus).cbr</td>
+<td>19.63MiB</td>
+</tr>
+
+<tr>
+<td>Grimm Fairy Tales Bad Girls 4(c2c)(2 covers)(2012)(Re-em-Novus-HD).cbr</td>
+<td>27.05MiB</td>
+</tr>
+
+<tr>
+<td>Grimm Fairy Tales Giant-Size 2012(2012)(Digital)(Tyrant Lizard King-EMPIRE).cbr</td>
+<td>52.12MiB</td>
+</tr>
+
+<tr>
+<td>Grimm Fairy Tales Myths &amp; Legends 23 (2012)(FB-DCP)(C2C).cbr</td>
+<td>15.14MiB</td>
+</tr>
+
+<tr>
+<td>Grimm Fairy Tales Myths And Legends 022(2012)(Digital)(Tyrant Lizard King-EMPIRE).cbr</td>
+<td>23.25MiB</td>
+</tr>
+
+<tr>
+<td>Grimm Fairy Tales Myths And Legends 23(c2c)(2012)(Re-em-Novus).cbr</td>
+<td>18.35MiB</td>
+</tr>
+
+<tr>
+<td>Grimm Fairy Tales Myths And Legends 23(c2c)(2012)(Re-em-Novus-HD).cbr</td>
+<td>25.37MiB</td>
+</tr>
+
+<tr>
+<td>Grimm Fairy Tales Presents Wonderland V2 005(2012)(Digital)(Tyrant Lizard King-EMPIRE).cbr</td>
+<td>18.95MiB</td>
+</tr>
+
+<tr>
+<td>Grimm Fairy Tales Presents Wonderland V2 5(c2c)(2 covers)(2012)(Re-em-Novus).cbr</td>
+<td>28.34MiB</td>
+</tr>
+
+<tr>
+<td>Grimm Fairy Tales Presents Wonderland V2 5(c2c)(2 covers)(2012)(Re-em-Novus-HD).cbr</td>
+<td>38.40MiB</td>
+</tr>
+
+<tr>
+<td>Guarding the Globe 03 (2012) (digital) (Minutemen-TwiztidScanner).cbr</td>
+<td>22.14MiB</td>
+</tr>
+
+<tr>
+<td>Hack-Slash 020 (2012) (Digital) (Nahga-Empire).cbr</td>
+<td>20.97MiB</td>
+</tr>
+
+<tr>
+<td>Hack-Slash 20 (2012) (2 Covers) (Tarutaru-Novus).cbr</td>
+<td>23.56MiB</td>
+</tr>
+
+<tr>
+<td>Hack-Slash 20 (2012) (2 Covers) (Tarutaru-Novus-HD).cbr</td>
+<td>39.19MiB</td>
+</tr>
+
+<tr>
+<td>Hawken - Genesis 01 (of 04) (2012) (Digital) (Nothing-Novus).cbz</td>
+<td>4.46MiB</td>
+</tr>
+
+<tr>
+<td>He-Man and the Masters of the Universe 004 (2013) (digital-TheGroup).cbr</td>
+<td>16.56MiB</td>
+</tr>
+
+<tr>
+<td>He-Man and the Masters of the Universe 04 (of 06) (2013) (digital) (Minutemen-TwiztidScanner).cbr</td>
+<td>16.30MiB</td>
+</tr>
+
+<tr>
+<td>Hoax Hunters 005 (2012) (Digital) (K6DVR-Empire).cbr</td>
+<td>15.37MiB</td>
+</tr>
+
+<tr>
+<td>Idolized 03 (2012) (2 Covers) (Tarutaru-Novus).cbr</td>
+<td>29.38MiB</td>
+</tr>
+
+<tr>
+<td>Idolized 03 (2012) (2 Covers) (Tarutaru-Novus-HD).cbr</td>
+<td>48.56MiB</td>
+</tr>
+
+<tr>
+<td>Insufferable 028 (2012) (Mark Waid, digital).cbz</td>
+<td>1.14MiB</td>
+</tr>
+
+<tr>
+<td>Invincible 097 (2012) (digital) (Minutemen-InnerDemons).cbr</td>
+<td>15.49MiB</td>
+</tr>
+
+<tr>
+<td>Invincible 097 (2012) (digital-TheGroup).cbr</td>
+<td>12.87MiB</td>
+</tr>
+
+<tr>
+<td>Jennifer Blood - First Blood 002 (2012) (Digital) (Nahga-Empire).cbr</td>
+<td>18.02MiB</td>
+</tr>
+
+<tr>
+<td>Justice League Beyond 014 (2013) (Digital) (Zone-Empire).cbr</td>
+<td>14.54MiB</td>
+</tr>
+
+<tr>
+<td>Justice League Beyond 015 (2012) (DCP Digital).cbr</td>
+<td>12.52MiB</td>
+</tr>
+
+<tr>
+<td>Justice League Beyond 015 (2013) (Digital) (Zone-Empire).cbr</td>
+<td>13.06MiB</td>
+</tr>
+
+<tr>
+<td>Legends of The Dark Knight 024 (2012) (digital) (TheHand-Empire).cbr</td>
+<td>13.32MiB</td>
+</tr>
+
+<tr>
+<td><a href="/post/comic/legion-lost-014-2012-digital-empire-cbr">Legion Lost 014 (2012) (digital-Empire).cbr</a></td>
+<td>30.35MiB</td>
+</tr>
+
+<tr>
+<td>Legion Lost 14 (2012) (1440px) (Digital) (Shining Knight-SCC-DCP).cbr</td>
+<td>13.98MiB</td>
+</tr>
+
+<tr>
+<td>Locke &amp; Key - Omega 01 (of 07) (2012) (3 covers - c2c) (theProletariat-Novus).cbr</td>
+<td>31.99MiB</td>
+</tr>
+
+<tr>
+<td>Locke &amp; Key - Omega 01 (of 07) (2012) (3 covers - noAds) (theProletariat-Novus).cbr</td>
+<td>28.11MiB</td>
+</tr>
+
+<tr>
+<td>Locke &amp; Key - Omega 01 (of 07) (2012) (Digital) (Nahga-Empire).cbr</td>
+<td>17.17MiB</td>
+</tr>
+
+<tr>
+<td>Lord of the Jungle 009 (2012) (F) (digital-Empire).cbr</td>
+<td>36.62MiB</td>
+</tr>
+
+<tr>
+<td>Lord of the Jungle 009 (2012) (digital-Empire).cbr</td>
+<td>24.99MiB</td>
+</tr>
+
+<tr>
+<td>Lord of the Jungle 009 (2012)(FB-DCP)(C2C).cbr</td>
+<td>16.92MiB</td>
+</tr>
+
+<tr>
+<td>Lou Scheimer Creating The Filmation Generation(c2c)(2012)(Project Ozma).cbr</td>
+<td>212.57MiB</td>
+</tr>
+</tbody>
+</table>
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">墨问非名</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+        2012-11-21
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      
+      <nav class="post-nav">
+        <a class="prev" href="/post/torrent/c6/0-day-week-of-2012-11-14-part-2-c646b1c6f9fbea5000e47c660d9d40cd4ea83a98/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">0-Day Week of 2012.11.14 Part 2</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        <a class="next" href="/post/torrent/d8/independent-scans-11-19-2012-d861fa92edc84fcb2e3af141e6d60eb1ad0e5cc2/">
+            <span class="next-text nav-default">Independent Scans 11-19-2012</span>
+            <span class="next-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+  
+  
+  <span id="/post/torrent/10/0-day-week-of-2012-11-14-part-1-10c305d187bcdba21722612729059be90c72bb08/" class="leancloud_visitors" data-flag-title="0-Day Week of 2012.11.14 Part 1">
+    <span class="post-meta-item-text">文章阅读量 </span>
+    <span class="leancloud-visitors-count">1000000</span>
+    <p></p>
+  </span>
+  <div id="vcomments"></div>
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+  <script type="text/javascript">
+    new Valine({
+        el: '#vcomments' ,
+        appId: '5Tbx5JEtVzgt4wB9j8mXwG8Q-gzGzoHsz',
+        appKey: 'eokrx1wEt5SkV4oA1yaV4V39',
+        notify:  false , 
+        verify:  false , 
+        avatar:'mm', 
+        placeholder: '说点什么吧...',
+        visitor:  false 
+    });
+  </script>
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:alicewishes@163.com" class="iconfont icon-email" title="email"></a>
+      <a href="https://github.com/alicewish" class="iconfont icon-github" title="github"></a>
+      <a href="https://weibo.com/Alicewish" class="iconfont icon-weibo" title="weibo"></a>
+      <a href="https://www.zhihu.com/people/mo-wen-fei-ming/activities" class="iconfont icon-zhihu" title="zhihu"></a>
+      <a href="http://localhost:1313" class="iconfont icon-gitlab" title="gitlab"></a>
+      <a href="http://localhost:1313" class="iconfont icon-bilibili" title="bilibili"></a>
+  <a href="https://alicewish.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  <div class="busuanzi-footer">
+    <span id="busuanzi_container_site_pv"> 本站总访问量 <span id="busuanzi_value_site_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次 </span>
+      <span class="division">|</span>
+    <span id="busuanzi_container_site_uv"> 本站总访客数 <span id="busuanzi_value_site_uv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 人 </span>
+  </div>
+
+  <span class="copyright-year">
+    &copy; 
+    2015 - 
+    2019
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">墨问非名</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/dist/even.26188efa.min.js"></script>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-119838231-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<script id="baidu_analytics">
+  var _hmt = _hmt || [];
+  (function() {
+    if (window.location.hostname === 'localhost') return;
+    var hm = document.createElement("script"); hm.async = true;
+    hm.src = "https://hm.baidu.com/hm.js?0d95a20e8c4e26aae016cefe20da4775";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+
+
+
+
+
+
+</body>
+</html>

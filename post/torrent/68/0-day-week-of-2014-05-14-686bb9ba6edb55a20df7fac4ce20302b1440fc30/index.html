@@ -1,0 +1,1183 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>0-Day Week of 2014.05.14 - 非名居 - 墨问非名的站点</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="墨问非名" /><meta name="description" content="点开下载" /><meta name="keywords" content="墨问非名, 非名居" />
+
+
+<meta name="baidu-site-verification" content="1HDlADuHzT" />
+<meta name="google-site-verification" content="XrWUkCXuOw4raLKgOPhWj_PeKoz9A-uDf-MRne2UmeE" />
+
+
+<meta name="generator" content="Hugo 0.54.0 with even 4.0.0" />
+
+
+<link rel="canonical" href="https://alicewish.github.io/post/torrent/68/0-day-week-of-2014-05-14-686bb9ba6edb55a20df7fac4ce20302b1440fc30/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<link href="/dist/even.c2a46f00.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="0-Day Week of 2014.05.14" />
+<meta property="og:description" content="点开下载" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://alicewish.github.io/post/torrent/68/0-day-week-of-2014-05-14-686bb9ba6edb55a20df7fac4ce20302b1440fc30/" />
+<meta property="article:published_time" content="2012-01-02T13:16:50&#43;08:00"/>
+<meta property="article:modified_time" content="2012-01-02T13:16:50&#43;08:00"/>
+
+<meta itemprop="name" content="0-Day Week of 2014.05.14">
+<meta itemprop="description" content="点开下载">
+
+
+<meta itemprop="datePublished" content="2012-01-02T13:16:50&#43;08:00" />
+<meta itemprop="dateModified" content="2012-01-02T13:16:50&#43;08:00" />
+<meta itemprop="wordCount" content="1658">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="0-Day Week of 2014.05.14"/>
+<meta name="twitter:description" content="点开下载"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">非名居</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">主页</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">归档</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">标签</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">分类</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">关于</li>
+      </a><a href="/post/catalogs/">
+        <li class="mobile-menu-item">目录</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">非名居</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">主页</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">归档</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">标签</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">分类</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">关于</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/catalogs/">目录</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">0-Day Week of 2014.05.14</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2012-01-02 </span>
+        <div class="post-category">
+            <a href="/categories/torrent/"> Torrent </a>
+            </div>
+          <span class="more-meta"> 约 1658 字 </span>
+          <span class="more-meta"> 预计阅读 4 分钟 </span>
+        <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次阅读 </span>
+      </div>
+    </header>
+
+    
+    <div class="post-content">
+      <p><a href="magnet:?xt=urn:btih:686bb9ba6edb55a20df7fac4ce20302b1440fc30&amp;dn=0-Day%20Week%20of%202014.05.14">磁力链接⬇Magnet Link</a></p>
+
+<p>打包下载📦仍在工事中</p>
+
+<p>文件数：176</p>
+
+<p>总大小：7.67GiB</p>
+
+<table>
+<thead>
+<tr>
+<th>Online</th>
+<th>Download</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>2000AD 1881 (2014) (Digital) (Nahga-Empire).cbr</td>
+<td>28.91MiB</td>
+</tr>
+
+<tr>
+<td>Abe Sapien 012 - The Garden (2014) (digital) (Minutemen-PhD).cbr</td>
+<td>20.29MiB</td>
+</tr>
+
+<tr>
+<td>Abe Sapien 012 - The Garden (2014) (digital) (Son of Ultron-Empire).cbr</td>
+<td>40.50MiB</td>
+</tr>
+
+<tr>
+<td><a href="/post/comic/action-comics-031-2014-digital-nahga-empire-cbr">Action Comics 031 (2014) (Digital) (Nahga-Empire).cbr</a></td>
+<td>49.55MiB</td>
+</tr>
+
+<tr>
+<td><a href="/post/comic/action-comics-031-2014-incentive-mike-allred-batman-66-variant-cover-digital-empire-cbr">Action Comics 031 (2014) (Incentive Mike Allred Batman 66 Variant Cover) (digital-Empire).cbr</a></td>
+<td>1.92MiB</td>
+</tr>
+
+<tr>
+<td>Action Comics 31 (2014) (Digital) (Shining Knight-SCC-Novus-HD).cbr</td>
+<td>41.51MiB</td>
+</tr>
+
+<tr>
+<td>Action Comics v2 031 (2014) (Webrip) (The Last Kryptonian-DCP).cbr</td>
+<td>41.50MiB</td>
+</tr>
+
+<tr>
+<td>Afterlife With Archie 005 (2014) (digital) (Minutemen-InnerDemons).cbr</td>
+<td>44.98MiB</td>
+</tr>
+
+<tr>
+<td>Afterlife with Archie 005 (2014) c2c (2 covers) (Jojo).cbr</td>
+<td>26.62MiB</td>
+</tr>
+
+<tr>
+<td>Albert the Alien v02 c01 06 (2014) (Mueller, Bautista - digital).cbr</td>
+<td>1.28MiB</td>
+</tr>
+
+<tr>
+<td>All-New Ghost Rider 003 (2014) (Digital) (BlackManta-Empire).cbr</td>
+<td>46.27MiB</td>
+</tr>
+
+<tr>
+<td><a href="/post/comic/all-new-ghost-rider-003-2014-digital-minutemen-spaztastic-cbr">All-New Ghost Rider 003 (2014) (digital) (Minutemen-Spaztastic).cbr</a></td>
+<td>45.10MiB</td>
+</tr>
+
+<tr>
+<td>All-New Ultimates 002 (2014) (Digital) (BlackManta-Empire).cbr</td>
+<td>46.02MiB</td>
+</tr>
+
+<tr>
+<td><a href="/post/comic/all-new-x-men-027-2014-digital-zone-empire-cbr">All-New X-Men 027 (2014) (Digital) (Zone-Empire).cbr</a></td>
+<td>34.97MiB</td>
+</tr>
+
+<tr>
+<td><a href="/post/comic/all-new-x-men-027-2014-digital-minutemen-phd-cbr">All-New X-Men 027 (2014) (digital) (Minutemen-PhD).cbr</a></td>
+<td>34.11MiB</td>
+</tr>
+
+<tr>
+<td>Amelia Cole and the Enemy Unleashed 003 (2014) (Digital) (Fawkes-Empire).cbr</td>
+<td>17.54MiB</td>
+</tr>
+
+<tr>
+<td>Amelia Cole and the Enemy Unleashed 003 (2014) (digital) (Minutemen-InnerDemons).cbr</td>
+<td>17.68MiB</td>
+</tr>
+
+<tr>
+<td>America&rsquo;s Army 000 (2014) (4 covers) (digital-Empire).cbr</td>
+<td>40.13MiB</td>
+</tr>
+
+<tr>
+<td>Archer Coe and the Thousand Natural Shocks 10 (of 14) (2014) (digital) (Minutemen-InnerDemons).cbr</td>
+<td>9.38MiB</td>
+</tr>
+
+<tr>
+<td>Archer Coe and the Thousand Natural Shocks 11 (of 14) (2014) (digital) (Minutemen-InnerDemons).cbr</td>
+<td>9.66MiB</td>
+</tr>
+
+<tr>
+<td>Archie 655 (2014) c2c (2 covers) (Jojo).cbr</td>
+<td>32.04MiB</td>
+</tr>
+
+<tr>
+<td>Ash And The Army Of Darkness 007(2014)(2 covers)(c2c)(Digi-Hybrid)(TLK-EMPIRE-HD).cbr</td>
+<td>35.46MiB</td>
+</tr>
+
+<tr>
+<td>Ash And The Army Of Darkness 007(2014)(Digital Exclusive Edition)(TLK-EMPIRE-HD).cbr</td>
+<td>25.64MiB</td>
+</tr>
+
+<tr>
+<td>Astro City 012 (2014) (digital) (Son of Ultron-Empire).cbr</td>
+<td>49.88MiB</td>
+</tr>
+
+<tr>
+<td>Atomic Robo &amp; Friends (FCBD 2014 ) (Digital) (UberSoldier-DCP).cbr</td>
+<td>43.96MiB</td>
+</tr>
+
+<tr>
+<td><a href="/post/comic/avengers-029-2014-digital-zone-empire-cbr">Avengers 029 (2014) (Digital) (Zone-Empire).cbr</a></td>
+<td>40.53MiB</td>
+</tr>
+
+<tr>
+<td>Avengers 029 (2014) (digital) (Minutemen-PhD).cbr</td>
+<td>39.67MiB</td>
+</tr>
+
+<tr>
+<td><a href="/post/comic/avengers-undercover-004-2014-digital-zone-empire-cbr">Avengers Undercover 004 (2014) (Digital) (Zone-Empire).cbr</a></td>
+<td>35.27MiB</td>
+</tr>
+
+<tr>
+<td>Batgirl 031 (2014) (Digital) (Nahga-Empire).cbr</td>
+<td>52.52MiB</td>
+</tr>
+
+<tr>
+<td><a href="/post/comic/batgirl-031-2014-incentive-mike-allred-batman-66-variant-cover-digital-empire-cbr">Batgirl 031 (2014) (Incentive Mike Allred Batman 66 Variant Cover) (digital-Empire).cbr</a></td>
+<td>1.44MiB</td>
+</tr>
+
+<tr>
+<td>Batman &lsquo;66 034 (2014) (digital) (Son of Ultron-Empire).cbr</td>
+<td>64.21MiB</td>
+</tr>
+
+<tr>
+<td>Batman Eternal 006 (2014) (Digital) (Nahga-Empire).cbr</td>
+<td>44.62MiB</td>
+</tr>
+
+<tr>
+<td><a href="/post/comic/batman-eternal-006-2014-digital-minutemen-phd-cbr">Batman Eternal 006 (2014) (digital) (Minutemen-PhD).cbr</a></td>
+<td>38.16MiB</td>
+</tr>
+
+<tr>
+<td>Bestiarium Nocturna 001 (2014) (Digital) (phillywilly-Empire).cbr</td>
+<td>42.97MiB</td>
+</tr>
+
+<tr>
+<td>Bloodshot and H.A.R.D. Corps (2014) - Digital Exclusives Edition 022 [DIGITAL HD][Zinc-Empire].cbr</td>
+<td>37.55MiB</td>
+</tr>
+
+<tr>
+<td>Bloodshot and H.A.R.D. Corps 022 (2014) (digital) (Minutemen-Spaztastic).cbr</td>
+<td>38.80MiB</td>
+</tr>
+
+<tr>
+<td>Brandi Bare 003 (2014) (Digital) (K6-Empire).cbr</td>
+<td>38.68MiB</td>
+</tr>
+
+<tr>
+<td><a href="/post/comic/captain-america-020-2014-digital-zone-empire-cbr">Captain America 020 (2014) (Digital) (Zone-Empire).cbr</a></td>
+<td>42.47MiB</td>
+</tr>
+
+<tr>
+<td>Captain America 020 (2014) (digital) (Minutemen-InnerDemons).cbr</td>
+<td>41.62MiB</td>
+</tr>
+
+<tr>
+<td><a href="/post/comic/captain-marvel-003-2014-digital-fawkes-empire-cbr">Captain Marvel 003 (2014) (Digital) (Fawkes-Empire).cbr</a></td>
+<td>37.75MiB</td>
+</tr>
+
+<tr>
+<td>Captain Marvel 003 (2014) (digital) (Minutemen-PhD).cbr</td>
+<td>38.92MiB</td>
+</tr>
+
+<tr>
+<td>Clive Barker&rsquo;s Next Testament 09 (of 12) (2014) (Digital) (Fawkes-Empire).cbr</td>
+<td>29.11MiB</td>
+</tr>
+
+<tr>
+<td><a href="/post/comic/constantine-014-2014-digital-darkness-empire-cbr">Constantine 014 (2014) (Digital) (Darkness-Empire).cbr</a></td>
+<td>48.05MiB</td>
+</tr>
+
+<tr>
+<td>Crossed - Wish You Were Here v2 Interlude 28 (2014) (Digital-Empire).cbr</td>
+<td>849.20KiB</td>
+</tr>
+
+<tr>
+<td><a href="/post/comic/deadly-hands-of-kung-fu-01-of-04-2014-digital-blackmanta-empire-cbr">Deadly Hands of Kung Fu 01 (of 04) (2014) (Digital) (BlackManta-Empire).cbr</a></td>
+<td>40.47MiB</td>
+</tr>
+
+<tr>
+<td><a href="/post/comic/deadpool-028-2014-digital-nahga-empire-cbr">Deadpool 028 (2014) (Digital) (Nahga-Empire).cbr</a></td>
+<td>45.92MiB</td>
+</tr>
+
+<tr>
+<td>Deadpool vs. Carnage 03 (of 04) (2014) (digital) (Minutemen-InnerDemons).cbr</td>
+<td>41.88MiB</td>
+</tr>
+
+<tr>
+<td>Deceivers 005 (2014) (Digital) (Nahga-Empire).cbr</td>
+<td>30.38MiB</td>
+</tr>
+
+<tr>
+<td>Don Rosa&rsquo;s Uncle Scrooge and Donald Duck - A Matter of Serious Gravity (FCBD 2014) (Digital) (UberSoldier-DCP).cbr</td>
+<td>58.32MiB</td>
+</tr>
+
+<tr>
+<td>Epic 000 (FCBD 2014) (Digital) (UberSoldier-DCP).cbr</td>
+<td>52.89MiB</td>
+</tr>
+
+<tr>
+<td>Escape From Jesus Island 002 (2014) (Digital) (Darkness-Empire).cbr</td>
+<td>31.31MiB</td>
+</tr>
+
+<tr>
+<td>FCBD 2014 Atomic Robo &amp; Friends (2014) (digital) (Son of Ultron-Empire).cbr</td>
+<td>58.87MiB</td>
+</tr>
+
+<tr>
+<td>FCBD 2014 Les Miserables - The Fall of Fantine (2014) (Digital) (BlurPixel-Empire).cbr</td>
+<td>67.02MiB</td>
+</tr>
+
+<tr>
+<td>FCBD 2014 Street Fighter 00 (2014) (Digital) (BlurPixel-Empire).cbr</td>
+<td>41.13MiB</td>
+</tr>
+
+<tr>
+<td>Fables 140 (2014) (2048px - c2c) (theProletariat-Novus-HD).cbr</td>
+<td>53.87MiB</td>
+</tr>
+
+<tr>
+<td>Fables 140 (2014) (2048px) (theProletariat-Novus-HD).cbr</td>
+<td>38.02MiB</td>
+</tr>
+
+<tr>
+<td>Fables 140 (2014) (Digital) (Nahga-Empire).cbr</td>
+<td>32.05MiB</td>
+</tr>
+
+<tr>
+<td>Fables 140 (2014) (theProletariat-Novus).cbr</td>
+<td>22.54MiB</td>
+</tr>
+
+<tr>
+<td>Fantastic Four 004 (2014) (Digital) (Zone-Empire).cbr</td>
+<td>43.07MiB</td>
+</tr>
+
+<tr>
+<td>Federal Bureau of Physics 010 (2014) (Digital) (Nahga-Empire).cbr</td>
+<td>29.67MiB</td>
+</tr>
+
+<tr>
+<td>G.I. Joe - A Real American Hero 202 (2014) (DIGITAL HD) (Zinc-Empire).cbr</td>
+<td>37.48MiB</td>
+</tr>
+
+<tr>
+<td>Gravel - Combat Magician 004 (2014) (Digital-Empire).cbr</td>
+<td>38.72MiB</td>
+</tr>
+
+<tr>
+<td><a href="/post/comic/green-lantern-corps-031-2014-digital-nahga-empire-cbr">Green Lantern Corps 031 (2014) (Digital) (Nahga-Empire).cbr</a></td>
+<td>56.17MiB</td>
+</tr>
+
+<tr>
+<td>Green Lantern Corps 031 (2014) (Incentive Mike Allred Batman 66 Variant Cover) (digital-Empire).cbr</td>
+<td>2.14MiB</td>
+</tr>
+
+<tr>
+<td>Green Lantern Corps v3 031 (2014) (Webrip) (The Last Kryptonian-DCP).cbr</td>
+<td>48.90MiB</td>
+</tr>
+
+<tr>
+<td>Grimm Fairy Tales 2014 Annual(2014)(2 covers)(c2c)(TLK-EMPIRE-HD).cbr</td>
+<td>41.58MiB</td>
+</tr>
+
+<tr>
+<td>Grimm Fairy Tales 2014 Annual(2014)(Digital)(TLK-EMPIRE-HD).cbr</td>
+<td>29.36MiB</td>
+</tr>
+
+<tr>
+<td>Grimm Fairy Tales Presents Robyn Hood Legend 003(2014)(2 covers)(c2c)(Digi-Hybrid)(TLK-EMPIRE-HD).cbr</td>
+<td>30.85MiB</td>
+</tr>
+
+<tr>
+<td>Grimm Fairy Tales Presents Robyn Hood Legend 003(2014)(Digital)(TLK-EMPIRE-HD).cbr</td>
+<td>23.10MiB</td>
+</tr>
+
+<tr>
+<td>Grimm Fairy Tales Presents The Dark One (2014)(2 covers)(c2c)(Digi-Hybrid)(TLK-EMPIRE-HD).cbr</td>
+<td>47.06MiB</td>
+</tr>
+
+<tr>
+<td>Grimm Fairy Tales Presents The Dark One (2014)(Digital)(TLK-EMPIRE-HD).cbr</td>
+<td>33.94MiB</td>
+</tr>
+
+<tr>
+<td>Hacktivist 004 (2014) (Digital-Empire).cbr</td>
+<td>48.33MiB</td>
+</tr>
+
+<tr>
+<td>Hellboy in Hell 006 (2014) (digital) (Minutemen-InnerDemons).cbr</td>
+<td>15.26MiB</td>
+</tr>
+
+<tr>
+<td>Hellboy in Hell 006 - The Death Card (2014) (digital) (Son of Ultron-Empire).cbr</td>
+<td>30.43MiB</td>
+</tr>
+
+<tr>
+<td>Hip Hop Family Tree Two-in-One (FCBD 2014) (Digital) (BlurPixel-Empire).cbr</td>
+<td>129.16MiB</td>
+</tr>
+
+<tr>
+<td>Hip Hop Family Tree Two-in-One (FCBD 2014) (digital) (Minutemen-InnerDemons).cbr</td>
+<td>128.88MiB</td>
+</tr>
+
+<tr>
+<td>Infinite Crisis - Fight for the Multiverse 001 (2014) (Digital) (Cypher-Empire).cbr</td>
+<td>17.57MiB</td>
+</tr>
+
+<tr>
+<td>Iron Man 025 (2014) (Digital) (Zone-Empire).cbr</td>
+<td>36.99MiB</td>
+</tr>
+
+<tr>
+<td><a href="/post/comic/iron-man-025-2014-digital-minutemen-phd-cbr">Iron Man 025 (2014) (digital) (Minutemen-PhD).cbr</a></td>
+<td>36.14MiB</td>
+</tr>
+
+<tr>
+<td>Jack Kraken (2014) (digital) (Son of Ultron-Empire).cbr</td>
+<td>66.79MiB</td>
+</tr>
+
+<tr>
+<td>Jailbait 004 (2014) (Digital) (K6-Empire).cbr</td>
+<td>37.62MiB</td>
+</tr>
+
+<tr>
+<td>Judge Dredd 019 (2014) (Digital) (Fawkes-Empire).cbr</td>
+<td>46.69MiB</td>
+</tr>
+
+<tr>
+<td>Justice League Beyond 2.0 020 (2014) (digital) (Son of Ultron-Empire).cbr</td>
+<td>25.40MiB</td>
+</tr>
+
+<tr>
+<td><a href="/post/comic/justice-league-united-001-2014-2-covers-digital-empire-cbr">Justice League United 001 (2014) (2 covers) (digital-Empire).cbr</a></td>
+<td>49.37MiB</td>
+</tr>
+
+<tr>
+<td><a href="/post/comic/justice-league-united-01-2014-two-covers-digital-shining-knight-scc-novus-hd-cbr">Justice League United 01 (2014) (Two Covers) (Digital) (Shining Knight-SCC-Novus-HD).cbr</a></td>
+<td>49.49MiB</td>
+</tr>
+
+<tr>
+<td>Krampus 005 (2014) (Digital) (phillywilly-Empire).cbr</td>
+<td>68.97MiB</td>
+</tr>
+
+<tr>
+<td>Madame Frankenstein 001 (2014) (digital) (Son of Ultron-Empire).cbr</td>
+<td>42.76MiB</td>
+</tr>
+
+<tr>
+<td>Mars Attacks - First Born 01 (2014) (webrip) (Eisenhart-DCP).cbr</td>
+<td>36.15MiB</td>
+</tr>
+
+<tr>
+<td>Minimum Wage 005 (2014) (Digital) (Fawkes-Empire).cbr</td>
+<td>44.42MiB</td>
+</tr>
+
+<tr>
+<td>Miss Fury V2 011(2014)(4 covers)(Digital Exclusive Edition)(TLK-EMPIRE-HD).cbr</td>
+<td>28.56MiB</td>
+</tr>
+
+<tr>
+<td>Miss Fury V2 011(2014)(5 covers)(c2c)(TLK-EMPIRE-HD).cbr</td>
+<td>39.54MiB</td>
+</tr>
+
+<tr>
+<td>Motorcycle Samurai - Peripeteia (2014) (digital) (Minutemen-InnerDemons).cbr</td>
+<td>188.37MiB</td>
+</tr>
+
+<tr>
+<td>New Avengers 018 (2014) (Digital) (Zone-Empire).cbr</td>
+<td>38.88MiB</td>
+</tr>
+
+<tr>
+<td><a href="/post/comic/new-avengers-018-2014-digital-minutemen-phd-cbr">New Avengers 018 (2014) (digital) (Minutemen-PhD).cbr</a></td>
+<td>38.02MiB</td>
+</tr>
+
+<tr>
+<td><a href="/post/comic/nightcrawler-002-2014-digital-zone-empire-cbr">Nightcrawler 002 (2014) (Digital) (Zone-Empire).cbr</a></td>
+<td>41.46MiB</td>
+</tr>
+
+<tr>
+<td>Quantum and Woody 010 (2014) (Digital) (Darkness-Empire).cbr</td>
+<td>45.94MiB</td>
+</tr>
+
+<tr>
+<td>Quantum and Woody 010 (2014) (digital) (Minutemen-Spaztastic).cbr</td>
+<td>48.03MiB</td>
+</tr>
+
+<tr>
+<td>SCAM 00 (of 05) (FCBD) (2014) (Digital) (K6-Empire).cbr</td>
+<td>32.86MiB</td>
+</tr>
+
+<tr>
+<td>Scam 000 (FCBD 2014) (Digital) (UberSoldier-DCP).cbr</td>
+<td>32.05MiB</td>
+</tr>
+
+<tr>
+<td>Scooby-Doo, Where Are You 045 (2014) (digital) (Son of Ultron-Empire).cbr</td>
+<td>44.68MiB</td>
+</tr>
+
+<tr>
+<td>Scribblenauts Unmasked - A Crisis of imagination 012 (2014) (digital) (Son of Ultron-Empire).cbr</td>
+<td>28.32MiB</td>
+</tr>
+
+<tr>
+<td>Secret Avengers 003 (2014) (Digital) (Zone-Empire).cbr</td>
+<td>34.70MiB</td>
+</tr>
+
+<tr>
+<td><a href="/post/comic/secret-avengers-003-2014-digital-minutemen-phd-cbr">Secret Avengers 003 (2014) (digital) (Minutemen-PhD).cbr</a></td>
+<td>33.84MiB</td>
+</tr>
+
+<tr>
+<td>Serenity - Leaves on the Wind 004 (2014) (Digital) (Pirate-Empire).cbr</td>
+<td>20.02MiB</td>
+</tr>
+
+<tr>
+<td>Shutter 002 (2014) (digital) (Son of Ultron-Empire).cbr</td>
+<td>76.12MiB</td>
+</tr>
+
+<tr>
+<td>Simpsons Comics 211 (2014) (digital) (Minutemen-InnerDemons).cbr</td>
+<td>30.23MiB</td>
+</tr>
+
+<tr>
+<td>Smallville - Lantern 010 (2014) (Digital-Empire).cbr</td>
+<td>15.14MiB</td>
+</tr>
+
+<tr>
+<td>Someplace Strange (2014) (digital) (Son of Ultron-Empire).cbr</td>
+<td>127.07MiB</td>
+</tr>
+
+<tr>
+<td>SpongeBob Comics 032 (2014) c2c (Jojo).cbr</td>
+<td>30.70MiB</td>
+</tr>
+
+<tr>
+<td>Star Trek New Visions 001(2014)(Digital)(TLK-EMPIRE-HD).cbr</td>
+<td>32.92MiB</td>
+</tr>
+
+<tr>
+<td>Star Trek New Visions 001(2014)(c2c)(Digi-Hybrid)(TLK-EMPIRE-HD).cbr</td>
+<td>35.64MiB</td>
+</tr>
+
+<tr>
+<td>Star Wars 017 (2014) (digital) (Minutemen-PhD).cbr</td>
+<td>24.43MiB</td>
+</tr>
+
+<tr>
+<td>Star Wars 17 (2014) (Digital) (Cypher-Empire).cbr</td>
+<td>18.15MiB</td>
+</tr>
+
+<tr>
+<td>Starlight 003 (2014) (Digital) (Zone-Empire).cbr</td>
+<td>32.35MiB</td>
+</tr>
+
+<tr>
+<td>Starlight 03 (2014) (2 covers - 2048px - c2c) (theProletariat-Novus-HD).cbr</td>
+<td>37.79MiB</td>
+</tr>
+
+<tr>
+<td>Starlight 03 (2014) (2 covers - 2048px) (theProletariat-Novus-HD).cbr</td>
+<td>34.45MiB</td>
+</tr>
+
+<tr>
+<td>Starlight 03 (2014) (2 covers) (theProletariat-Novus).cbr</td>
+<td>21.44MiB</td>
+</tr>
+
+<tr>
+<td>Steam Wars 01 (FCBD Edition) (2014) (Team-DCP).cbr</td>
+<td>31.25MiB</td>
+</tr>
+
+<tr>
+<td>Stray Bullets - Killers 003 (2014) (digital) (Son of Ultron-Empire).cbr</td>
+<td>38.86MiB</td>
+</tr>
+
+<tr>
+<td>Street Fighter 000 (FCBD 2014) (Digital) (UberSoldier-DCP).cbr</td>
+<td>41.23MiB</td>
+</tr>
+
+<tr>
+<td>Sunday Comics, Oregonian, 2014 May 18 (Jojo webrip).cbr</td>
+<td>8.50MiB</td>
+</tr>
+
+<tr>
+<td><a href="/post/comic/superboy-031-2014-digital-hd-thornn-empire-cbr">Superboy 031 (2014)(Digital)(HD)(Thornn-Empire).cbr</a></td>
+<td>44.73MiB</td>
+</tr>
+
+<tr>
+<td>Superboy v5 031 (2014) (Webrip) (The Last Kryptonian-DCP).cbr</td>
+<td>44.50MiB</td>
+</tr>
+
+<tr>
+<td>Superman - Doomed 001 (2014) (Webrip) (The Last Kryptonian-DCP).cbr</td>
+<td>68.42MiB</td>
+</tr>
+
+<tr>
+<td><a href="/post/comic/superman-wonder-woman-008-2014-incentive-mike-allred-batman-66-variant-cover-digital-empire-cbr">Superman - Wonder Woman 008 (2014) (Incentive Mike Allred Batman 66 Variant Cover) (digital-Empire).cbr</a></td>
+<td>2.64MiB</td>
+</tr>
+
+<tr>
+<td><a href="/post/comic/superman-doomed-001-2014-digital-son-of-ultron-empire-cbr">Superman Doomed 001 (2014) (digital) (Son of Ultron-Empire).cbr</a></td>
+<td>115.98MiB</td>
+</tr>
+
+<tr>
+<td><a href="/post/comic/superman-wonder-woman-008-2014-2-covers-digital-empire-cbr">Superman-Wonder Woman 008 (2014) (2 covers) (digital-Empire).cbr</a></td>
+<td>43.94MiB</td>
+</tr>
+
+<tr>
+<td>Tales of Honor 002 (2014) (digital) (Son of Ultron-Empire).cbr</td>
+<td>57.70MiB</td>
+</tr>
+
+<tr>
+<td>Teen Titans Go! - FCBD Special Edition 001 (2014) (digital) (Son of Ultron-Empire).cbr</td>
+<td>42.10MiB</td>
+</tr>
+
+<tr>
+<td>Teen Titans Go! - FCBD Special Edition 001 (FCBD 2014) (Digital) (UberSoldier-DCP).cbr</td>
+<td>24.60MiB</td>
+</tr>
+
+<tr>
+<td>Teenage Mutant Ninja Turtles - New Animated Adventures 011 (2014) (Digital) (BlackManta-Empire).cbr</td>
+<td>46.13MiB</td>
+</tr>
+
+<tr>
+<td><a href="/post/comic/amazing-spider-man-001-1-2014-digital-minutemen-innerdemons-cbr">The Amazing Spider-Man 001.1 (2014) (digital) (Minutemen-InnerDemons).cbr</a></td>
+<td>42.41MiB</td>
+</tr>
+
+<tr>
+<td>The Atomic Legion (2014) (digital) (Son of Ultron-Empire).cbr</td>
+<td>471.05MiB</td>
+</tr>
+
+<tr>
+<td>The Auteur 003 (2014) (Digital) (phillywilly-Empire).cbr</td>
+<td>30.42MiB</td>
+</tr>
+
+<tr>
+<td>The Bounce 012 (2014) (Digital) (Darkness-Empire).cbr</td>
+<td>49.70MiB</td>
+</tr>
+
+<tr>
+<td>The Crow - Pestilence 003 (2014) (digital) (Son of Ultron-Empire).cbr</td>
+<td>53.40MiB</td>
+</tr>
+
+<tr>
+<td>The Endling v02 016 (2014) (Larsen, Latella - digital).cbz</td>
+<td>9.78MiB</td>
+</tr>
+
+<tr>
+<td>The Field 02 (of 04) (2014) (Digital-Empire).cbr</td>
+<td>50.60MiB</td>
+</tr>
+
+<tr>
+<td>The Intrinsic - Singularity Zero v2 (FCBD 2014) (Digital) (UberSoldier-DCP).cbr</td>
+<td>17.36MiB</td>
+</tr>
+
+<tr>
+<td>The Machine Stops 003 (2014) (Digital) (phillywilly-Empire).cbr</td>
+<td>16.50MiB</td>
+</tr>
+
+<tr>
+<td>The Mice Templar v4 - Legend 010 (2014) (digital) (Son of Ultron-Empire).cbr</td>
+<td>66.16MiB</td>
+</tr>
+
+<tr>
+<td><a href="/post/comic/new-52-futures-end-fcbd-special-edition-000-2014-digital-son-of-ultron-empire-cbr">The New 52 - Futures End - FCBD Special Edition 000 (2014) (digital) (Son of Ultron-Empire).cbr</a></td>
+<td>65.39MiB</td>
+</tr>
+
+<tr>
+<td><a href="/post/comic/new-52-futures-end-002-2014-digital-hd-zinc-empire-cbr">The New 52 - Futures End 002 (2014) (DIGITAL HD) (ZINC-EMPIRE).cbr</a></td>
+<td>50.17MiB</td>
+</tr>
+
+<tr>
+<td>The New 52 - Futures End 002 (2014) (Webrip) (DCP).cbr</td>
+<td>50.26MiB</td>
+</tr>
+
+<tr>
+<td>The New 52- Futures End - FCBD Special Edition 000 (2014) (Webrip) (DCP).cbr</td>
+<td>40.51MiB</td>
+</tr>
+
+<tr>
+<td>The New 52- Futures End - FCBD Special Edition 000 (FCBD 2014) (Digital) (UberSoldier-DCP).cbr</td>
+<td>40.18MiB</td>
+</tr>
+
+<tr>
+<td>The Returning 003 (2014) (Digital) (K6-Empire).cbr</td>
+<td>36.22MiB</td>
+</tr>
+
+<tr>
+<td>The Royals - Masters of War 04 (of 06) (2014) (Digital) (phillywilly-Empire).cbr</td>
+<td>38.62MiB</td>
+</tr>
+
+<tr>
+<td>The Shadow 025 (2014) (2 Covers) (Digital) (Darkness-Empire).cbr</td>
+<td>48.76MiB</td>
+</tr>
+
+<tr>
+<td>The Terminator - Enemy of My Enemy 003 (2014) (digital) (Son of Ultron-Empire).cbr</td>
+<td>41.60MiB</td>
+</tr>
+
+<tr>
+<td>The Transformers - More Than Meets the Eye 029 (2014) (digital) (Minutemen-Phantasm).cbz</td>
+<td>43.37MiB</td>
+</tr>
+
+<tr>
+<td>The United States of Murder Inc. 001 (2014) (Digital) (Archangel+Zone-Empire).cbr</td>
+<td>65.27MiB</td>
+</tr>
+
+<tr>
+<td>The Vampire Diaries 023 (2014) (Digital) (Pirate-Empire).cbr</td>
+<td>15.28MiB</td>
+</tr>
+
+<tr>
+<td>The Vampire Diaries 024 (2014) (Digital) (Pirate-Empire).cbr</td>
+<td>10.98MiB</td>
+</tr>
+
+<tr>
+<td>The Vampire Diaries 025 (2014) (Digital) (Pirate-Empire).cbr</td>
+<td>15.05MiB</td>
+</tr>
+
+<tr>
+<td>The Walking Dead 127 (2014) (Digital) (Zone-Empire).cbr</td>
+<td>75.38MiB</td>
+</tr>
+
+<tr>
+<td>The Wraith - Welcome To Christmasland 06 (2014) (Digital-Empire).cbr</td>
+<td>52.44MiB</td>
+</tr>
+
+<tr>
+<td>Think Tank - Fun With PTSD 001 (2014) (Digital) (Fawkes-Empire).cbr</td>
+<td>55.78MiB</td>
+</tr>
+
+<tr>
+<td>Think Tank - Fun With PTSD 001 (2014) (digital) (Minutemen-Spaztastic).cbr</td>
+<td>64.05MiB</td>
+</tr>
+
+<tr>
+<td>Transformers - More Than Meets the Eye - Dawn of the Autobots 029 (2014) (DIGITAL HD) (Zinc Empire).cbr</td>
+<td>43.26MiB</td>
+</tr>
+
+<tr>
+<td>Transformers vs GI Joe 00 (FCBD 2014) (c2c) (GreenManGroup-DCP).cbr</td>
+<td>49.92MiB</td>
+</tr>
+
+<tr>
+<td>Uber - The First Cycle FCBD Edition (2014) (Digital) (Darkness-Empire).cbr</td>
+<td>69.83MiB</td>
+</tr>
+
+<tr>
+<td>Uber 013 (2014) (5 Covers) (Digital) (Darkness-Empire).cbr</td>
+<td>49.49MiB</td>
+</tr>
+
+<tr>
+<td>Valentine 025 (2014) (De Campi, Larsen - digital).cbr</td>
+<td>4.80MiB</td>
+</tr>
+
+<tr>
+<td>Vincent Price Night Terror 001(2014)(Digital)(TLK-EMPIRE-HD).cbr</td>
+<td>14.73MiB</td>
+</tr>
+
+<tr>
+<td>WEIRD Love 001 (2014) (Digital)  (phillywilly-Empire).cbr</td>
+<td>151.13MiB</td>
+</tr>
+
+<tr>
+<td>Walt Disney Uncle Scrooge and Donald Duck - A Matter of Serious Gravity (2014, FCBD) (digital) (Son of Ultron-Empire).cbr</td>
+<td>76.96MiB</td>
+</tr>
+
+<tr>
+<td>Walt Disney Uncle Scrooge and Donald Duck - A Matter of Some Gravity (FCBD 2014) (digital) (Minutemen-InnerDemons).cbr</td>
+<td>57.95MiB</td>
+</tr>
+
+<tr>
+<td>Wasteland 054 (2014) (Digital) (Zone-Empire).cbr</td>
+<td>31.85MiB</td>
+</tr>
+
+<tr>
+<td>Weird Love 001 (2014) (digital) (Minutemen-InnerDemons).cbr</td>
+<td>151.11MiB</td>
+</tr>
+
+<tr>
+<td><a href="/post/comic/wolverine-006-2014-digital-minutemen-phd-cbr">Wolverine 006 (2014) (digital) (Minutemen-PhD).cbr</a></td>
+<td>35.26MiB</td>
+</tr>
+
+<tr>
+<td>Wolverine v6 006 (2014) (Digital) (Nahga-Empire).cbr</td>
+<td>34.49MiB</td>
+</tr>
+
+<tr>
+<td><a href="/post/comic/worlds-finest-023-2014-digital-nahga-empire-cbr">Worlds Finest 023 (2014) (Digital) (Nahga-Empire).cbr</a></td>
+<td>46.29MiB</td>
+</tr>
+
+<tr>
+<td>X 013 - Better Off Dead 01 (of 04) (2014) (digital) (Son of Ultron-Empire).cbr</td>
+<td>42.11MiB</td>
+</tr>
+
+<tr>
+<td><a href="/post/comic/x-force-005-2014-digital-nahga-empire-cbr">X-Force 005 (2014) (Digital) (Nahga-Empire).cbr</a></td>
+<td>34.55MiB</td>
+</tr>
+
+<tr>
+<td>X-Force 005 (2014) (digital) (Minutemen-Spaztastic).cbr</td>
+<td>35.80MiB</td>
+</tr>
+</tbody>
+</table>
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">墨问非名</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+        2012-01-02
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      
+      <nav class="post-nav">
+        <a class="prev" href="/post/torrent/6f/0-day-week-of-2014-06-18-6f3c80f3e8d50324d0bc573e7121b7e565209ee0/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">0-Day Week of 2014.06.18</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        <a class="next" href="/post/torrent/31/0-day-week-of-2014-05-07-3173faa8f049c0af8efb0762ec2039e70dc9eb3b/">
+            <span class="next-text nav-default">0-Day Week of 2014.05.07</span>
+            <span class="next-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+  
+  
+  <span id="/post/torrent/68/0-day-week-of-2014-05-14-686bb9ba6edb55a20df7fac4ce20302b1440fc30/" class="leancloud_visitors" data-flag-title="0-Day Week of 2014.05.14">
+    <span class="post-meta-item-text">文章阅读量 </span>
+    <span class="leancloud-visitors-count">1000000</span>
+    <p></p>
+  </span>
+  <div id="vcomments"></div>
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+  <script type="text/javascript">
+    new Valine({
+        el: '#vcomments' ,
+        appId: '5Tbx5JEtVzgt4wB9j8mXwG8Q-gzGzoHsz',
+        appKey: 'eokrx1wEt5SkV4oA1yaV4V39',
+        notify:  false , 
+        verify:  false , 
+        avatar:'mm', 
+        placeholder: '说点什么吧...',
+        visitor:  false 
+    });
+  </script>
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:alicewishes@163.com" class="iconfont icon-email" title="email"></a>
+      <a href="https://github.com/alicewish" class="iconfont icon-github" title="github"></a>
+      <a href="https://weibo.com/Alicewish" class="iconfont icon-weibo" title="weibo"></a>
+      <a href="https://www.zhihu.com/people/mo-wen-fei-ming/activities" class="iconfont icon-zhihu" title="zhihu"></a>
+      <a href="http://localhost:1313" class="iconfont icon-gitlab" title="gitlab"></a>
+      <a href="http://localhost:1313" class="iconfont icon-bilibili" title="bilibili"></a>
+  <a href="https://alicewish.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  <div class="busuanzi-footer">
+    <span id="busuanzi_container_site_pv"> 本站总访问量 <span id="busuanzi_value_site_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次 </span>
+      <span class="division">|</span>
+    <span id="busuanzi_container_site_uv"> 本站总访客数 <span id="busuanzi_value_site_uv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 人 </span>
+  </div>
+
+  <span class="copyright-year">
+    &copy; 
+    2015 - 
+    2019
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">墨问非名</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/dist/even.26188efa.min.js"></script>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-119838231-1', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<script id="baidu_analytics">
+  var _hmt = _hmt || [];
+  (function() {
+    if (window.location.hostname === 'localhost') return;
+    var hm = document.createElement("script"); hm.async = true;
+    hm.src = "https://hm.baidu.com/hm.js?0d95a20e8c4e26aae016cefe20da4775";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+
+
+
+
+
+
+</body>
+</html>
