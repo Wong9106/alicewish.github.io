@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>0-Day Week of 2019.04.17 - 非名居 - 墨问非名的站点</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="墨问非名" /><meta name="description" content="点开下载" /><meta name="keywords" content="墨问非名, 非名居" />
+
+
+<meta name="baidu-site-verification" content="1HDlADuHzT" />
+<meta name="google-site-verification" content="XrWUkCXuOw4raLKgOPhWj_PeKoz9A-uDf-MRne2UmeE" />
+
+
+<meta name="generator" content="Hugo 0.55.6 with even 4.0.0" />
+
+
+<link rel="canonical" href="https://alicewish.github.io/post/torrent/79/0-day-week-of-2019-04-17-7920234ecf97adc5e2f21697d40fcd034f7117ea/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<link href="/dist/even.c2a46f00.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="0-Day Week of 2019.04.17" />
+<meta property="og:description" content="点开下载" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://alicewish.github.io/post/torrent/79/0-day-week-of-2019-04-17-7920234ecf97adc5e2f21697d40fcd034f7117ea/" />
+<meta property="article:published_time" content="2019-06-02T16:40:30&#43;08:00"/>
+<meta property="article:modified_time" content="2019-06-02T16:40:30&#43;08:00"/>
+
+<meta itemprop="name" content="0-Day Week of 2019.04.17">
+<meta itemprop="description" content="点开下载">
+
+
+<meta itemprop="datePublished" content="2019-06-02T16:40:30&#43;08:00" />
+<meta itemprop="dateModified" content="2019-06-02T16:40:30&#43;08:00" />
+<meta itemprop="wordCount" content="1347">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="0-Day Week of 2019.04.17"/>
+<meta name="twitter:description" content="点开下载"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">非名居</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">主页</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">归档</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">标签</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">分类</li>
+      </a><a href="/series/">
+        <li class="mobile-menu-item">系列</li>
+      </a><a href="/creators/">
+        <li class="mobile-menu-item">作者</li>
+      </a><a href="/uploaders/">
+        <li class="mobile-menu-item">上传者</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">关于</li>
+      </a><a href="/post/catalogs/">
+        <li class="mobile-menu-item">目录</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">非名居</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">主页</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">归档</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">标签</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">分类</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/series/">系列</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/creators/">作者</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/uploaders/">上传者</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">关于</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/catalogs/">目录</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">0-Day Week of 2019.04.17</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2019-06-02 </span>
+        <div class="post-category">
+            <a href="/categories/torrent/"> Torrent </a>
+            </div>
+          <span class="more-meta"> 约 1347 字 </span>
+          <span class="more-meta"> 预计阅读 3 分钟 </span>
+        <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次阅读 </span>
+      </div>
+    </header>
+
+    
+    <div class="post-content">
+      <p><a href="magnet:?xt=urn:btih:7920234ecf97adc5e2f21697d40fcd034f7117ea&amp;dn=0-Day%20Week%20of%202019.04.17">磁力链接⬇Magnet Link</a></p>
+
+<p><a href="https:/raw.githubusercontent.com/alicewish/ComicTorrents/master/worldwidetorrents/4445/20190602/0-Day%20Week%20of%202019.04.17.7920234ecf97adc5.torrent">种子下载⬇Download Torrent</a></p>
+
+<p>打包下载📦仍在工事中</p>
+
+<p>文件数：157</p>
+
+<p>总大小：19.32GiB</p>
+
+<table>
+<thead>
+<tr>
+<th>Online</th>
+<th>Download</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>2000AD 2127 (2019) (Digital-Empire).cbr</td>
+<td>67.59MiB</td>
+</tr>
+
+<tr>
+<td>2000AD prog 2127 (2019) (digital) (Minutemen-juvecube).cbr</td>
+<td>45.12MiB</td>
+</tr>
+
+<tr>
+<td>Age of X-Man - NextGen 003 (2019) (Digital) (Zone-Empire).cbr</td>
+<td>32.21MiB</td>
+</tr>
+
+<tr>
+<td>Age of X-Man - NextGen 003 (2019) (digital) (Minutemen-Bookworm).cbr</td>
+<td>31.60MiB</td>
+</tr>
+
+<tr>
+<td>Age of X-Man - The Amazing Nightcrawler 003 (2019) (Digital) (Zone-Empire).cbr</td>
+<td>32.52MiB</td>
+</tr>
+
+<tr>
+<td>Age of X-Man - The Amazing Nightcrawler 003 (2019) (digital) (Minutemen-Bookworm).cbr</td>
+<td>31.91MiB</td>
+</tr>
+
+<tr>
+<td>Amazing Spider-Man 019.HU (2019) (Digital) (Zone-Empire).cbr</td>
+<td>34.10MiB</td>
+</tr>
+
+<tr>
+<td>American Carnage 006 (2019) (Digital) (Zone-Empire).cbr</td>
+<td>28.95MiB</td>
+</tr>
+
+<tr>
+<td>American Gods - The Moment of the Storm 001 (2019) (digital) (Son of Ultron-Empire).cbr</td>
+<td>32.92MiB</td>
+</tr>
+
+<tr>
+<td>Animosity 020 (2019) (digital) (Son of Ultron-Empire).cbr</td>
+<td>60.68MiB</td>
+</tr>
+
+<tr>
+<td>Answer the Call Ghostbusters 35th Anniversary (2019) (digital) (Knight Ripper-Empire).cbr</td>
+<td>32.81MiB</td>
+</tr>
+
+<tr>
+<td>Aquaman 047 (2019) (Digital) (BlackManta-Empire).cbr</td>
+<td>35.61MiB</td>
+</tr>
+
+<tr>
+<td>Archie Comics Double Digest 298 (2019) (Forsythe-DCP).cbr</td>
+<td>217.01MiB</td>
+</tr>
+
+<tr>
+<td>Assassin Nation 002 (2019) (Digital) (Mephisto-Empire).cbr</td>
+<td>26.60MiB</td>
+</tr>
+
+<tr>
+<td>Auntie Agatha&rsquo;s Home For Wayward Rabbits 06 (of 06) (2019) (digital) (Son of Ultron-Empire).cbr</td>
+<td>32.14MiB</td>
+</tr>
+
+<tr>
+<td>Avengers - No Road Home 010 (2019) (Digital) (Zone-Empire).cbr</td>
+<td>52.43MiB</td>
+</tr>
+
+<tr>
+<td>Avengers - No Road Home 010 (2019) (digital) (Minutemen-Bookworm).cbr</td>
+<td>51.81MiB</td>
+</tr>
+
+<tr>
+<td>B.P.R.D. - The Devil You Know 015 (2019) (digital) (Son of Ultron-Empire).cbr</td>
+<td>20.19MiB</td>
+</tr>
+
+<tr>
+<td>Batman 069 (2019) (Digital) (Zone-Empire).cbr</td>
+<td>32.13MiB</td>
+</tr>
+
+<tr>
+<td>Batman v3 069 (2019) (Webrip) (The Last Kryptonian-DCP).cbr</td>
+<td>31.88MiB</td>
+</tr>
+
+<tr>
+<td>Black Badge 009 (2019) (digital) (Son of Ultron-Empire).cbr</td>
+<td>52.24MiB</td>
+</tr>
+
+<tr>
+<td>Black Betty 008 (2019) (digital) (d&rsquo;argh-Empire).cbr</td>
+<td>32.28MiB</td>
+</tr>
+
+<tr>
+<td>Bloodborne 011 (2019) (Digital) (Mephisto-Empire).cbr</td>
+<td>44.55MiB</td>
+</tr>
+
+<tr>
+<td>Buffy the Vampire Slayer 004 (2019) (Digital) (Kileko-Empire).cbr</td>
+<td>46.39MiB</td>
+</tr>
+
+<tr>
+<td>Calamity Kate 002 (2019) (digital) (Son of Ultron-Empire).cbr</td>
+<td>33.75MiB</td>
+</tr>
+
+<tr>
+<td>Creepy Archives v28 (2019) (Digital) (Bean-Empire).cbz</td>
+<td>628.12MiB</td>
+</tr>
+
+<tr>
+<td>DC Super Hero Girls - Weird Science 004 (2019) (digital) (Son of Ultron-Empire).cbr</td>
+<td>11.04MiB</td>
+</tr>
+
+<tr>
+<td>Damage 016 (2019) (digital) (Son of Ultron-Empire).cbr</td>
+<td>38.91MiB</td>
+</tr>
+
+<tr>
+<td>Daredevil 004 (2019) (Digital) (Zone-Empire).cbr</td>
+<td>35.84MiB</td>
+</tr>
+
+<tr>
+<td>Daredevil 004 (2019) (Oroboros-DCP).cbr</td>
+<td>35.58MiB</td>
+</tr>
+
+<tr>
+<td>Devils&rsquo; Line X (2019) (Digital) (danke-Empire).cbz</td>
+<td>59.75MiB</td>
+</tr>
+
+<tr>
+<td>Disney Afternoon Giant 004 (2019) (digital) (Salem-Empire).cbr</td>
+<td>68.90MiB</td>
+</tr>
+
+<tr>
+<td>Disney Afternoon Giant 004 (2019) (webrip) (Gearloose-DCP).cbr</td>
+<td>71.50MiB</td>
+</tr>
+
+<tr>
+<td>East of West 042 (2019) (Digital) (Zone-Empire).cbr</td>
+<td>29.02MiB</td>
+</tr>
+
+<tr>
+<td>Edens Zero 041 (2019) (Digital) (danke-Empire).cbz</td>
+<td>27.49MiB</td>
+</tr>
+
+<tr>
+<td>Edens Zero 042 (2019) (Digital) (danke-Empire).cbz</td>
+<td>24.67MiB</td>
+</tr>
+
+<tr>
+<td>Electric Warriors 06 (of 06) (2019) (Digital) (Zone-Empire).cbr</td>
+<td>21.44MiB</td>
+</tr>
+
+<tr>
+<td>Evolution 016 (2019) (Digital) (Zone-Empire).cbr</td>
+<td>57.36MiB</td>
+</tr>
+
+<tr>
+<td>Farmhand 007 (2019) (Digital) (Zone-Empire).cbr</td>
+<td>39.91MiB</td>
+</tr>
+
+<tr>
+<td>Fearscape 005 (2019) (digital) (Son of Ultron-Empire).cbr</td>
+<td>42.75MiB</td>
+</tr>
+
+<tr>
+<td>G.I. Joe - A Real American Hero 261 (2019) (Digital) (Thornn-Emipre).cbr</td>
+<td>42.81MiB</td>
+</tr>
+
+<tr>
+<td>Gideon Falls 012 (2019) (Digital) (Mephisto-Empire).cbr</td>
+<td>39.30MiB</td>
+</tr>
+
+<tr>
+<td>Goblin Slayer Side Story - Year One 023 (2019) (Digital) (danke-Empire).cbz</td>
+<td>14.02MiB</td>
+</tr>
+
+<tr>
+<td>Gretel 02 (of 05) (2019) (digital) (The Seeker-Empire).cbr</td>
+<td>42.53MiB</td>
+</tr>
+
+<tr>
+<td>Guardians of the Galaxy 004 (2019) (Digital) (Zone-Empire).cbr</td>
+<td>35.11MiB</td>
+</tr>
+
+<tr>
+<td>Guardians of the Galaxy 004 (2019) (Oroboros-DCP).cbr</td>
+<td>34.84MiB</td>
+</tr>
+
+<tr>
+<td>Guardians of the Galaxy 004 (2019) (digital) (Minutemen-Bookworm).cbr</td>
+<td>34.49MiB</td>
+</tr>
+
+<tr>
+<td>High Level 003 (2019) (Digital) (Oracle-SWA).cbr</td>
+<td>29.47MiB</td>
+</tr>
+
+<tr>
+<td>High Level 003 (2019) (Digital) (Zone-Empire).cbr</td>
+<td>30.08MiB</td>
+</tr>
+
+<tr>
+<td>Incursion 03 (of 04) (2019) (digital) (Son of Ultron-Empire).cbr</td>
+<td>58.96MiB</td>
+</tr>
+
+<tr>
+<td>Infinity 8 011 - Symbolic Guerrilla (2019) (digital) (Son of Ultron-Empire).cbr</td>
+<td>57.83MiB</td>
+</tr>
+
+<tr>
+<td>Initial D v01 (2019) (Digital) (danke-Empire).cbz</td>
+<td>294.47MiB</td>
+</tr>
+
+<tr>
+<td>Initial D v02 (2019) (Digital) (danke-Empire).cbz</td>
+<td>300.70MiB</td>
+</tr>
+
+<tr>
+<td>Initial D v03 (2019) (Digital) (danke-Empire).cbz</td>
+<td>376.58MiB</td>
+</tr>
+
+<tr>
+<td>Initial D v04 (2019) (Digital) (danke-Empire).cbz</td>
+<td>342.85MiB</td>
+</tr>
+
+<tr>
+<td>Initial D v05 (2019) (Digital) (danke-Empire).cbz</td>
+<td>329.34MiB</td>
+</tr>
+
+<tr>
+<td>Initial D v06 (2019) (Digital) (danke-Empire).cbz</td>
+<td>340.12MiB</td>
+</tr>
+
+<tr>
+<td>Initial D v07 (2019) (Digital) (danke-Empire).cbz</td>
+<td>339.92MiB</td>
+</tr>
+
+<tr>
+<td>Initial D v08 (2019) (Digital) (danke-Empire).cbz</td>
+<td>299.73MiB</td>
+</tr>
+
+<tr>
+<td>Initial D v09 (2019) (Digital) (danke-Empire).cbz</td>
+<td>391.03MiB</td>
+</tr>
+
+<tr>
+<td>Initial D v10 (2019) (Digital) (danke-Empire).cbz</td>
+<td>371.76MiB</td>
+</tr>
+
+<tr>
+<td>Initial D v11 (2019) (Digital) (danke-Empire).cbz</td>
+<td>349.94MiB</td>
+</tr>
+
+<tr>
+<td>Initial D v12 (2019) (Digital) (danke-Empire).cbz</td>
+<td>305.02MiB</td>
+</tr>
+
+<tr>
+<td>Initial D v13 (2019) (Digital) (danke-Empire).cbz</td>
+<td>363.37MiB</td>
+</tr>
+
+<tr>
+<td>Initial D v14 (2019) (Digital) (danke-Empire).cbz</td>
+<td>363.32MiB</td>
+</tr>
+
+<tr>
+<td>Initial D v15 (2019) (Digital) (danke-Empire).cbz</td>
+<td>326.06MiB</td>
+</tr>
+
+<tr>
+<td>Initial D v16 (2019) (Digital) (danke-Empire).cbz</td>
+<td>351.27MiB</td>
+</tr>
+
+<tr>
+<td>Initial D v17 (2019) (Digital) (danke-Empire).cbz</td>
+<td>326.43MiB</td>
+</tr>
+
+<tr>
+<td>Initial D v18 (2019) (Digital) (danke-Empire).cbz</td>
+<td>342.03MiB</td>
+</tr>
+
+<tr>
+<td>Initial D v20 (2019) (Digital) (danke-Empire).cbz</td>
+<td>413.46MiB</td>
+</tr>
+
+<tr>
+<td>Initial D v21 (2019) (Digital) (danke-Empire).cbz</td>
+<td>411.77MiB</td>
+</tr>
+
+<tr>
+<td>Initial D v22 (2019) (Digital) (danke-Empire).cbz</td>
+<td>402.10MiB</td>
+</tr>
+
+<tr>
+<td>Initial D v23 (2019) (Digital) (danke-Empire).cbz</td>
+<td>382.37MiB</td>
+</tr>
+
+<tr>
+<td>Initial D v24 (2019) (Digital) (danke-Empire).cbz</td>
+<td>434.16MiB</td>
+</tr>
+
+<tr>
+<td>Initial D v25 (2019) (Digital) (danke-Empire).cbz</td>
+<td>412.87MiB</td>
+</tr>
+
+<tr>
+<td>Initial D v26 (2019) (Digital) (danke-Empire).cbz</td>
+<td>361.10MiB</td>
+</tr>
+
+<tr>
+<td>Initial D v27 (2019) (Digital) (danke-Empire).cbz</td>
+<td>377.50MiB</td>
+</tr>
+
+<tr>
+<td>Initial D v28 (2019) (Digital) (danke-Empire).cbz</td>
+<td>359.82MiB</td>
+</tr>
+
+<tr>
+<td>Initial D v29 (2019) (Digital) (danke-Empire).cbz</td>
+<td>362.94MiB</td>
+</tr>
+
+<tr>
+<td>Initial D v30 (2019) (Digital) (danke-Empire).cbz</td>
+<td>314.38MiB</td>
+</tr>
+
+<tr>
+<td>Initial D v31 (2019) (Digital) (danke-Empire).cbz</td>
+<td>373.64MiB</td>
+</tr>
+
+<tr>
+<td>Initial D v32 (2019) (Digital) (danke-Empire).cbz</td>
+<td>293.69MiB</td>
+</tr>
+
+<tr>
+<td>Initial D v33 (2019) (Digital) (danke-Empire).cbz</td>
+<td>297.13MiB</td>
+</tr>
+
+<tr>
+<td>Initial D v34 (2019) (Digital) (danke-Empire).cbz</td>
+<td>398.43MiB</td>
+</tr>
+
+<tr>
+<td>Initial D v35 (2019) (Digital) (danke-Empire).cbz</td>
+<td>408.44MiB</td>
+</tr>
+
+<tr>
+<td>Initial D v36 (2019) (Digital) (danke-Empire).cbz</td>
+<td>372.21MiB</td>
+</tr>
+
+<tr>
+<td>Initial D v37 (2019) (Digital) (danke-Empire).cbz</td>
+<td>396.71MiB</td>
+</tr>
+
+<tr>
+<td>Initial D v38 (2019) (Digital) (danke-Empire).cbz</td>
+<td>425.54MiB</td>
+</tr>
+
+<tr>
+<td>James Bond 007 006 (2019) (Digital-Empire).cbr</td>
+<td>45.15MiB</td>
+</tr>
+
+<tr>
+<td>Judge Dredd Megazine 407 (2019) (Digital) (DR &amp; Quinch-Empire).cbr</td>
+<td>233.87MiB</td>
+</tr>
+
+<tr>
+<td>Judge Dredd Megazine 407 (2019)(digital)(Minutemen-juvecube).cbr</td>
+<td>138.59MiB</td>
+</tr>
+
+<tr>
+<td>Justice League 022 (2019) (Digital) (Thornn-Emipre).cbr</td>
+<td>38.52MiB</td>
+</tr>
+
+<tr>
+<td>Justice League 022 (2019) (Webrip) (The Last Kryptonian-DCP).cbr</td>
+<td>38.63MiB</td>
+</tr>
+
+<tr>
+<td>Kick-Ass 013 (2019) (Digital) (Zone-Empire).cbr</td>
+<td>28.94MiB</td>
+</tr>
+
+<tr>
+<td>Little Bird 002 (2019) (Digital) (Mephisto-Empire).cbr</td>
+<td>62.68MiB</td>
+</tr>
+
+<tr>
+<td>Lucifer 007 (2019) (digital) (Son of Ultron-Empire).cbr</td>
+<td>37.85MiB</td>
+</tr>
+
+<tr>
+<td>Lumberjanes 061 (2019) (digital) (Son of Ultron-Empire).cbr</td>
+<td>39.24MiB</td>
+</tr>
+
+<tr>
+<td>MAD Magazine 007 (2019) (digital) (Son of Ultron-Empire).cbr</td>
+<td>131.45MiB</td>
+</tr>
+
+<tr>
+<td>Magnificent Ms. Marvel 002 (2019) (Digital) (Zone-Empire).cbr</td>
+<td>44.95MiB</td>
+</tr>
+
+<tr>
+<td>Magnificent Ms. Marvel 002 (2019) (digital) (Minutemen-Bookworm).cbr</td>
+<td>44.34MiB</td>
+</tr>
+
+<tr>
+<td>Major X 002 (2019) (Digital) (Zone-Empire).cbr</td>
+<td>36.06MiB</td>
+</tr>
+
+<tr>
+<td>Marvel&rsquo;s Spider-Man - City At War 02 (of 06) (2019) (Oroboros-DCP).cbr</td>
+<td>33.17MiB</td>
+</tr>
+
+<tr>
+<td>Marvel&rsquo;s Spider-Man - City at War 002 (2019) (Digital) (Zone-Empire).cbr</td>
+<td>33.43MiB</td>
+</tr>
+
+<tr>
+<td>Mary Shelley Monster Hunter 001 (2019) (digital) (Son of Ultron-Empire).cbr</td>
+<td>57.36MiB</td>
+</tr>
+
+<tr>
+<td>Maxwell&rsquo;s Demons 004 (2019) (digital) (Son of Ultron-Empire).cbr</td>
+<td>93.98MiB</td>
+</tr>
+
+<tr>
+<td>Meet The Skrulls 03 (of 05) (2019) (digital) (Minutemen-Bookworm).cbr</td>
+<td>29.15MiB</td>
+</tr>
+
+<tr>
+<td>Meet the Skrulls 003 (2019) (Digital) (Zone-Empire).cbr</td>
+<td>29.76MiB</td>
+</tr>
+
+<tr>
+<td>Middlewest 006 (2019) (Digital) (Mephisto-Empire).cbr</td>
+<td>48.44MiB</td>
+</tr>
+
+<tr>
+<td>Miles Morales - Spider-Man 005 (2019) (Digital) (Zone-Empire).cbr</td>
+<td>37.07MiB</td>
+</tr>
+
+<tr>
+<td>Morning In America 002 (2019) (Digital) (Mephisto-Empire).cbr</td>
+<td>91.00MiB</td>
+</tr>
+
+<tr>
+<td>Naomi 004 (2019) (Digital) (Zone-Empire).cbr</td>
+<td>34.68MiB</td>
+</tr>
+
+<tr>
+<td>Nightwing 059 (2019) (Digital) (Oracle-SWA).cbr</td>
+<td>30.09MiB</td>
+</tr>
+
+<tr>
+<td>Nightwing 059 (2019) (Digital) (Zone-Empire).cbr</td>
+<td>30.70MiB</td>
+</tr>
+
+<tr>
+<td>Old Man Quill 004 (2019) (Digital) (Zone-Empire).cbr</td>
+<td>45.92MiB</td>
+</tr>
+
+<tr>
+<td>Old Man Quill 004 (2019) (digital) (Minutemen-Bookworm).cbr</td>
+<td>45.31MiB</td>
+</tr>
+
+<tr>
+<td>Oliver 003 (2019) (Digital) (Zone-Empire).cbr</td>
+<td>66.88MiB</td>
+</tr>
+
+<tr>
+<td>Our Precious Conversations 029 (2019) (Digital) (danke-Empire).cbz</td>
+<td>37.61MiB</td>
+</tr>
+
+<tr>
+<td>Outpost Zero 009 (2019) (Digital) (Zone-Empire).cbr</td>
+<td>44.66MiB</td>
+</tr>
+
+<tr>
+<td>Oz - Heart of Magic 01 (of 05) (2019) (digital) (The Seeker-Empire).cbr</td>
+<td>38.48MiB</td>
+</tr>
+
+<tr>
+<td>Pearl 008 (2019) (Digital) (Oracle-SWA).cbr</td>
+<td>39.19MiB</td>
+</tr>
+
+<tr>
+<td>Pearl 008 (2019) (Digital) (Zone-Empire).cbr</td>
+<td>39.81MiB</td>
+</tr>
+
+<tr>
+<td>Peter Cannon - Thunderbolt 004 (2019) (3 covers) (digital) (Son of Ultron-Empire).cbr</td>
+<td>37.70MiB</td>
+</tr>
+
+<tr>
+<td>Port of Earth 009 (2019) (Digital) (Zone-Empire).cbr</td>
+<td>48.90MiB</td>
+</tr>
+
+<tr>
+<td>Relay 005 (2019) (Digital) (Mephisto-Empire).cbr</td>
+<td>46.63MiB</td>
+</tr>
+
+<tr>
+<td>Rumble 011 (2019) (digital) (Son of Ultron-Empire).cbr</td>
+<td>73.72MiB</td>
+</tr>
+
+<tr>
+<td>Scooby-Doo Team-Up 095 (2019) (digital) (Son of Ultron-Empire).cbr</td>
+<td>19.20MiB</td>
+</tr>
+
+<tr>
+<td>Scooby-Doo, Where Are You 098 (2019) (digital) (Son of Ultron-Empire).cbr</td>
+<td>33.65MiB</td>
+</tr>
+
+<tr>
+<td>Shuri 007 (2019) (Digital) (Zone-Empire).cbr</td>
+<td>41.87MiB</td>
+</tr>
+
+<tr>
+<td>Spider-Man - Life Story 002 (2019) (Digital) (Zone-Empire).cbr</td>
+<td>60.53MiB</td>
+</tr>
+
+<tr>
+<td>Star Trek - The Q Conflict 003 (2019) (digital) (The Seeker-Empire).cbr</td>
+<td>33.50MiB</td>
+</tr>
+
+<tr>
+<td>Star Wars - Age Of Rebellion Special 001 (2019) (Digital) (Kileko-Empire).cbr</td>
+<td>52.40MiB</td>
+</tr>
+
+<tr>
+<td>Star Wars - Tie Fighter 001 (2019) (Digital) (Kileko-Empire).cbr</td>
+<td>34.60MiB</td>
+</tr>
+
+<tr>
+<td>Star Wars Adventures 020 (2019) (Digital) (Kileko-Empire).cbr</td>
+<td>37.20MiB</td>
+</tr>
+
+<tr>
+<td>Stronghold 003 (2019) (digital) (Son of Ultron-Empire).cbr</td>
+<td>49.02MiB</td>
+</tr>
+
+<tr>
+<td>Tangled - The Series - Hair and Now 001 (2019) (digital) (Salem-Empire).cbr</td>
+<td>29.90MiB</td>
+</tr>
+
+<tr>
+<td>Teen Titans 029 (2019) (Digital) (Thornn-Emipre).cbr</td>
+<td>27.32MiB</td>
+</tr>
+
+<tr>
+<td>Teen Titans 029 (2019) (TheVIP).cbz</td>
+<td>12.83MiB</td>
+</tr>
+
+<tr>
+<td>The Seven Deadly Sins 308 (2019) (Digital) (danke-Empire).cbz</td>
+<td>23.84MiB</td>
+</tr>
+
+<tr>
+<td>Thor 012 (2019) (Digital) (Zone-Empire).cbr</td>
+<td>31.59MiB</td>
+</tr>
+
+<tr>
+<td>Thor 012 (2019) (digital) (Minutemen-Bookworm).cbr</td>
+<td>30.98MiB</td>
+</tr>
+
+<tr>
+<td>Tony Stark - Iron Man 010 (2019) (Digital) (Zone-Empire).cbr</td>
+<td>37.80MiB</td>
+</tr>
+
+<tr>
+<td>Toy Story Adventures v01 (2019) (digital) (Salem-Empire).cbr</td>
+<td>414.09MiB</td>
+</tr>
+
+<tr>
+<td>Transformers 003 (2019) (digital) (Knight Ripper-Empire).cbr</td>
+<td>37.76MiB</td>
+</tr>
+
+<tr>
+<td>Transformers 003 (2019) (digital) (Minutemen-Phantasm).cbz</td>
+<td>52.16MiB</td>
+</tr>
+
+<tr>
+<td>Uncanny X-Men 016 (2019) (digital) (Minutemen-Bookworm).cbr</td>
+<td>36.19MiB</td>
+</tr>
+
+<tr>
+<td>War of the Realms - Punisher 001 (2019) (Digital) (Zone-Empire).cbr</td>
+<td>49.79MiB</td>
+</tr>
+
+<tr>
+<td>War of the Realms - Punisher 001 (2019) (digital) (Minutemen-Bookworm).cbr</td>
+<td>49.18MiB</td>
+</tr>
+
+<tr>
+<td>War of the Realms - War Scrolls 001 (2019) (digital) (Minutemen-Bookworm).cbr</td>
+<td>70.34MiB</td>
+</tr>
+
+<tr>
+<td>War of the Realms 002 (2019) (Digital) (Zone-Empire).cbr</td>
+<td>60.74MiB</td>
+</tr>
+
+<tr>
+<td>War of the Realms 002 (2019) (digital) (Minutemen-Bookworm).cbr</td>
+<td>60.13MiB</td>
+</tr>
+
+<tr>
+<td>West Coast Avengers 010 (2019) (Digital) (Zone-Empire).cbr</td>
+<td>33.65MiB</td>
+</tr>
+
+<tr>
+<td>West Coast Avengers 010 (2019) (Oroboros-DCP).cbr</td>
+<td>33.39MiB</td>
+</tr>
+
+<tr>
+<td>Witchblade 013 (2019) (digital) (Son of Ultron-Empire).cbr</td>
+<td>42.92MiB</td>
+</tr>
+
+<tr>
+<td>Wolverine - Infinity Watch 003 (2019) (Digital) (Zone-Empire).cbr</td>
+<td>36.62MiB</td>
+</tr>
+
+<tr>
+<td>X-O Manowar 026 (2019) (digital) (Son of Ultron-Empire).cbr</td>
+<td>60.03MiB</td>
+</tr>
+
+<tr>
+<td>Xena - Warrior Princess 001 (2019) (5 covers) (Digital) (DR &amp; Quinch-Empire).cbr</td>
+<td>59.06MiB</td>
+</tr>
+
+<tr>
+<td>Zorro - Swords of Hell 004 (2019) (digital) (Son of Ultron-Empire).cbr</td>
+<td>29.56MiB</td>
+</tr>
+</tbody>
+</table>
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">墨问非名</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+        2019-06-02
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      
+      <nav class="post-nav">
+        <a class="prev" href="/post/torrent/06/hitlist-week-of-2019-04-17-066cf3eb98187e9a162ae8cf88f967fa0aa64578/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Hitlist Week of 2019.04.17</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        <a class="next" href="/post/torrent/32/legionnaires-books-01-02-2017-2018-digital-son-of-ultron-empire-32e83babe8dffd5d2fed9baa190b0c61e91d85eb/">
+            <span class="next-text nav-default">Legionnaires (Books 01-02)(2017-2018)(digital)(Son of Ultron-Empire)</span>
+            <span class="next-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+  
+  
+  <div id="vcomments"></div>
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+  <script type="text/javascript">
+    new Valine({
+        el: '#vcomments' ,
+        appId: '5Tbx5JEtVzgt4wB9j8mXwG8Q-gzGzoHsz',
+        appKey: 'eokrx1wEt5SkV4oA1yaV4V39',
+        notify:  false , 
+        verify:  false , 
+        avatar:'mm', 
+        placeholder: '说点什么吧...',
+        visitor:  false 
+    });
+  </script>
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:alicewishes@163.com" class="iconfont icon-email" title="email"></a>
+      <a href="https://github.com/alicewish" class="iconfont icon-github" title="github"></a>
+      <a href="https://weibo.com/Alicewish" class="iconfont icon-weibo" title="weibo"></a>
+      <a href="https://www.zhihu.com/people/mo-wen-fei-ming/activities" class="iconfont icon-zhihu" title="zhihu"></a>
+      <a href="http://localhost:1313" class="iconfont icon-gitlab" title="gitlab"></a>
+      <a href="http://localhost:1313" class="iconfont icon-bilibili" title="bilibili"></a>
+  <a href="https://alicewish.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  <div class="busuanzi-footer">
+    <span id="busuanzi_container_site_pv"> 本站总访问量 <span id="busuanzi_value_site_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次 </span>
+      <span class="division">|</span>
+    <span id="busuanzi_container_site_uv"> 本站总访客数 <span id="busuanzi_value_site_uv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 人 </span>
+  </div>
+
+  <span class="copyright-year">
+    &copy; 
+    2015 - 
+    2019
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">墨问非名</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/dist/even.26188efa.min.js"></script>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-119838231-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<script id="baidu_analytics">
+  var _hmt = _hmt || [];
+  (function() {
+    if (window.location.hostname === 'localhost') return;
+    var hm = document.createElement("script"); hm.async = true;
+    hm.src = "https://hm.baidu.com/hm.js?0d95a20e8c4e26aae016cefe20da4775";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+
+
+
+
+
+
+</body>
+</html>
